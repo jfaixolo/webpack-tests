@@ -1,8 +1,8 @@
-// import _ from 'lodash';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Widget from './widget.jsx';
 
 ReactDOM.render(
-    <h1>Hello</h1>,
+    <Widget/>,
     document.getElementById('root')
 );
