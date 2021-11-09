@@ -3,6 +3,6 @@ import ReactDOM from 'react-dom';
 import Widget from './widget.jsx';
 
 ReactDOM.render(
-    <Widget/>,
+    <Widget Mode="stealth" />,
     document.getElementById('root')
 );

@@ -1,10 +1,16 @@
 import React from 'react';
 
 class Widget extends React.Component {
+    constructor(props) {
+        super(props);
+    }
+
     render() {
         return (
             <div>
-                🎉 Here is a widget! 🎉
+                <h2>🎉 Here is a widget! 🎉</h2>
+                <br/>
+                <span>Mode: {this.props.Mode}</span>
             </div>
         )
     }
