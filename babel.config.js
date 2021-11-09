@@ -5,7 +5,7 @@ module.exports = api => {
         "@babel/plugin-proposal-optional-chaining",
         "@babel/plugin-transform-runtime",
       ],
-      
+
       presets: [
         [
           "@babel/preset-env",
@@ -17,8 +17,8 @@ module.exports = api => {
               ? { node: "current" }
               : { chrome: "58", ie: "11" }
           }
-        ]
+        ],
+        "@babel/preset-react"
       ]
     }
 }
-  
